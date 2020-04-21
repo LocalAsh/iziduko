@@ -1,0 +1,16 @@
+html {
+    font-family: 'Carter One', cursive;
+    background: lightsalmon;
+}
+
+.main-iziduko {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    border: rgba(64, 187, 199, 1) solid 5px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    color: tomato;
+    background: lightcyan;
+}
