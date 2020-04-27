@@ -1,9 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
-    font-family: 'Carter One', cursive;
     background: #eedad2;
 }
 
 .main-iziduko {
+    font-family: 'Carter One', cursive;
     text-align: center;
     font-size: 1rem;
     border: #40bbc7 solid 6px;
@@ -12,10 +18,22 @@ html {
     margin: 0 auto;
     color: #ff6347;
     background: #e0ffff;
+    position: fixed;
+    top: 0;
+    right: 12px;
+    left: 12px;
 }
 
 .main-iziduko p {
-    padding: 0;
-    margin: 0;
     color: #a239a2;
+}
+
+.iziduko-description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+    border: 3px solid #40bbc7;
+    border-radius: 12px;
+    padding: 20px;
+    width: 20%;
+    margin: 120px auto;
 }
